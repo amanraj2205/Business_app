@@ -14,6 +14,10 @@ app.get('/aman',(req,res)=>{
     res.send('aman url is hit , it work')
 })
 
+app.get("/hello",(req,res)=>{
+    res.send("Hello from the hello url")
+})
+
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`)
 })
